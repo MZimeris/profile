@@ -1,0 +1,104 @@
+body {
+  color: rgb(77, 0, 0);
+  font-family: 'Exo', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  background-color: #E60F05;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 10px #E60F05;
+
+}
+
+.card {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #ffffff;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 32px;
+  font-weight: 600;
+  color:#E60F05;
+}
+
+h2 {
+  margin: 0px;
+  color: rgb(110, 0, 0);
+  font-weight: 500;
+}
+
+p {
+  margin: 0px;
+}
+
+
+
+.image-circle {
+  border-radius: 30%;
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+  all: unset;
+  color: white;
+  background-color: #E60F05;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+button:hover {
+  color: white;
+  background-color: #FF1F14;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    background-color: aqua;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    background-color: rgb(15, 228, 82);
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    background-color: rgb(80, 245, 4);
+
+  }
+}
